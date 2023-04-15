@@ -1,3 +1,59 @@
 {
-    "javascript_quiz": []
+    "javascript_quiz": [
+        {
+            "id": "javascript_quiz_question1",
+            "quizType": "JavaScript Quiz",
+            "questionType": "multiple_choice",
+            "questionText": "Which HTML tag is JavaScript code placed in?",
+            "correctAnswer": "<script>",
+            "options": ["<script>", "<code>", "<function>", "<program>"],
+            "explanation": "To write JavaScript code in an HTML file, you place the code in <script> tags."
+        },
+        {
+            "id": "javascript_quiz_question2",
+            "quizType": "JavaScript Quiz",
+            "questionType": "true_false",
+            "questionText": "In JavaScript, you can create a function in many different ways including via arrow function notation and function expressions.",
+            "correctAnswer": "True",
+            "options": ["True", "False"],
+            "explanation": "JavaScript is a very versatile programming language and allows for multiple methods of function declaration, each with their own strengths and useful qualities."
+        },
+        {
+            "id": "javascript_quiz_question3",
+            "quizType": "JavaScript Quiz",
+            "questionType": "text_input_multiple",
+            "questionText": "Name two functions you can use in JavaScript to access an HTML element. Don't forget the parentheses.",
+            "correctAnswer": ["document.querySelector()", "document.getElementById()", "document.getElementsByClassName()"],
+            "answerFieldOneId": "first_answer",
+            "answerFieldTwoId": "second_answer",
+            "explanation": "In JavaScript you can access HTML elements in a few different ways. To access an element by its ID, you can use document.getElementById(). If you want to access all the elements of a certain class, you can use document.getElementsByClassName(). Alternatively, you can use document.querySelector() to access either the first element of a certain class or type or any element by its unique ID."
+        },
+        {
+            "id": "javascript_quiz_question4",
+            "quizType": "JavaScript Quiz",
+            "questionType": "text_input_one",
+            "questionText": "Quotes (\"\") are used in JavaScript to create strings. What symbols are used to create string templates? Write the symbols below.",
+            "correctAnswer": "``",
+            "answerFieldId": "answer_to_question",
+            "explanation": "Back-ticks (``) are used in JavaScript to create string templates. String templates are also called template literals, template strings, and back-tics syntax."
+        },
+        {
+            "id": "javascript_quiz_question5",
+            "quizType": "JavaScript Quiz",
+            "questionType": "image_selection",
+            "questionText": "Which JavaScript code block has the correct syntax?",
+            "correctAnswer": "img_1",
+            "options": [
+                {
+                    "id": "img_1",
+                    "source": ""
+                },
+                {
+                    "id": "img_2",
+                    "source": ""
+                }
+            ],
+            "explanation": ""
+        }
+    ]
 }
