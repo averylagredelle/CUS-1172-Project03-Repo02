@@ -41,19 +41,74 @@
             "id": "javascript_quiz_question5",
             "quizType": "JavaScript Quiz",
             "questionType": "image_selection",
-            "questionText": "Which JavaScript code block has the correct syntax?",
+            "questionText": "Which JavaScript code block has the correct syntax to get an HTML element by ID, print the element in the console, and change the element's content?",
             "correctAnswer": "img_1",
             "options": [
                 {
                     "id": "img_1",
-                    "source": ""
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/correct_javascript_syntax.png"
                 },
                 {
                     "id": "img_2",
-                    "source": ""
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/incorrect_javascript_syntax.png"
                 }
             ],
-            "explanation": ""
+            "explanation": "To print to the console in JavaScript, you use the console.log() function. To change the content of an HTML element, you assign the change to the element's innerHTML property."
+        },
+        {
+            "id": "javascript_quiz_question6",
+            "quizType": "JavaScript Quiz",
+            "questionType": "multiple_choice",
+            "questionText": "Which of the following is not a keyword used to declare a variable in JavaScript?",
+            "correctAnswer": "int",
+            "options": ["var", "let", "int", "const"],
+            "explanation": "To declare a variable in JavaScript, you can use let, var, or const. You cannot, however, declare variables by type as with other programming languages, such as Java or C#."
+        },
+        {
+            "id": "javascript_quiz_question7",
+            "quizType": "JavaScript Quiz",
+            "questionType": "text_input_one",
+            "questionText": "What does JSON stand for?",
+            "correctAnswer": "JavaScript Object Notation",
+            "answerFieldId": "answer_to_question",
+            "explanation": "JSON stands for JavaScript Object Notation. It is a text format used to represent data in a way that can be interpreted by many different programming languages, thus making it incredibly useful for sharing data between computers."
+        },
+        {
+            "id": "javascript_quiz_question8",
+            "quizType": "JavaScript Quiz",
+            "questionType": "true_false",
+            "questionText": "You cannot use asynchronous functions in JavaScript.",
+            "correctAnswer": "False",
+            "options": ["True", "False"],
+            "explanation": "While JavaScript is single-threaded, it does possess the capacity to call functions asynchronously."
+        },
+        {
+            "id": "javascript_quiz_question9",
+            "quizType": "JavaScript Quiz",
+            "questionType": "image_selection",
+            "questionText": "Select the code block below which correctly shows the use of exponents in JavaScript.",
+            "correctAnswer": "img_2",
+            "options": [
+                {
+                    "id": "img_1",
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/incorrect_exponent.png"
+                },
+                {
+                    "id": "img_2",
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/correct_exponent.png"
+                }
+            ],
+            "explanation": "The exponentiation operator in JavaScript is \"**\". This operator raises the term on its left to the power of the term on its right. Alternatively, you could use the Math.pow() function."
+        },
+        {
+            "id": "javascript_quiz_question10",
+            "quizType": "JavaScript Quiz",
+            "questionType": "text_input_multiple",
+            "questionText": "JavaScript has 8 data types. Name two of them below. Remember to start each data type with a capital letter.",
+            "correctAnswer": ["String", "Number", "Bigint", "Boolean", "Undefined", "Null", "Symbol", "Object"],
+            "answerFieldOneId": "first_answer",
+            "answerFieldTwoId": "second_answer",
+            "explanation": "JavaScript uses the 8 data types above to store different types of data, such as String for words and phrases, Number for whole numbers and decimals, or Boolean for true/false values."
         }
     ]
 }
