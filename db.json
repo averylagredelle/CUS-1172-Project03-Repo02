@@ -68,7 +68,7 @@
             "id": "javascript_quiz_question7",
             "quizType": "JavaScript Quiz",
             "questionType": "text_input_one",
-            "questionText": "What does JSON stand for?",
+            "questionText": "What does JSON stand for? (Use Title Case.)",
             "correctAnswer": "JavaScript Object Notation",
             "answerFieldId": "answer_to_question",
             "explanation": "JSON stands for JavaScript Object Notation. It is a text format used to represent data in a way that can be interpreted by many different programming languages, thus making it incredibly useful for sharing data between computers."
@@ -109,6 +109,61 @@
             "answerFieldOneId": "first_answer",
             "answerFieldTwoId": "second_answer",
             "explanation": "JavaScript uses the 8 data types above to store different types of data, such as String for words and phrases, Number for whole numbers and decimals, or Boolean for true/false values."
+        },
+        {
+            "id": "javascript_quiz_question11",
+            "quizType": "JavaScript Quiz",
+            "questionType": "multiple_choice",
+            "questionText": "What is the name of the HTML Event where the user clicks on an HTML element?",
+            "correctAnswer": "onclick",
+            "options": ["onpress", "onclick", "onselect", "onmouseover"],
+            "explanation": "When an HTML element is clicked, the event is called onclick. In JavaScript, you can write code to react when this event is triggered on an HTML element."
+        },
+        {
+            "id": "javascript_quiz_question12",
+            "quizType": "JavaScript Quiz",
+            "questionType": "true_false",
+            "questionText": "The following is one correct syntax to declare an array in JavaScript: const states = ['New York', 'New Jersey', 'Pennsylvania'];",
+            "correctAnswer": "True",
+            "options": ["True", "False"],
+            "explanation": "Arrays can be created in a couple of different ways in JavaScript. One is by using brackets like so: const states = ['New York', 'New Jersey', 'Pennsylvania']. Another way is to use the 'new' keyword: const states = new Array('New York', 'New Jersey', 'Pennsylvania')."
+        },
+        {
+            "id": "javascript_quiz_question13",
+            "quizType": "JavaScript Quiz",
+            "questionType": "text_input_one",
+            "questionText": "Fill in the blank: JavaScript ______ Objects allow us to work with measures of time, like days, hours, minutes, and seconds. (Be sure to use Title Case for your answer.)",
+            "correctAnswer": "Date",
+            "answerFieldId": "answer_to_question",
+            "explanation": "In JavaScript, it is Date Objects that allow you to work with dates and times. They can be very helpful for creating timers in JavaScript."
+        },
+        {
+            "id": "javascript_quiz_question14",
+            "quizType": "JavaScript Quiz",
+            "questionType": "text_input_multiple",
+            "questionText": "What are the two values that a variable of the type Boolean can have? (Give your answer in all lowercase letters.)",
+            "correctAnswer": ["true", "false"],
+            "answerFieldOneId": "first_answer",
+            "answerFieldTwoId": "second_answer",
+            "explanation": "In JavaScript a Boolean variable can only hold one of two values: true or false."
+        },
+        {
+            "id": "javascript_quiz_question15",
+            "quizType": "JavaScript Quiz",
+            "questionType": "image_selection",
+            "questionText": "Which of the two code blocks pictured below uses a JavaScript for loop?",
+            "correctAnswer": "img_2",
+            "options": [
+                {
+                    "id": "img_1",
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/js_for_of_loop.png"
+                },
+                {
+                    "id": "img_2",
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/js_for_loop.png"
+                }
+            ],
+            "explanation": "The first image depicts a for of loop, not a for loop. They can both be used to iterate through Arrays and other iterable objects, but they have slightly different syntax."
         }
     ]
 }
