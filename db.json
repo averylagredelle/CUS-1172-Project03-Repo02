@@ -46,11 +46,11 @@
             "options": [
                 {
                     "id": "img_1",
-                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/correct_javascript_syntax.png"
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Assignment03/Database/javascript_questions/correct_javascript_syntax.png"
                 },
                 {
                     "id": "img_2",
-                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/incorrect_javascript_syntax.png"
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Assignment03/Database/javascript_questions/incorrect_javascript_syntax.png"
                 }
             ],
             "explanation": "To print to the console in JavaScript, you use the console.log() function. To change the content of an HTML element, you assign the change to the element's innerHTML property."
@@ -91,11 +91,11 @@
             "options": [
                 {
                     "id": "img_1",
-                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/incorrect_exponent.png"
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Assignment03/Database/javascript_questions/incorrect_exponent.png"
                 },
                 {
                     "id": "img_2",
-                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/correct_exponent.png"
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Assignment03/Database/javascript_questions/correct_exponent.png"
                 }
             ],
             "explanation": "The exponentiation operator in JS is \"**\". It raises the term on its left to the power of the term on its right. You could also use the Math.pow() function."
@@ -156,11 +156,11 @@
             "options": [
                 {
                     "id": "img_1",
-                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/js_for_of_loop.png"
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Assignment03/Database/javascript_questions/js_for_of_loop.png"
                 },
                 {
                     "id": "img_2",
-                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/js_for_loop.png"
+                    "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Assignment03/Database/javascript_questions/js_for_loop.png"
                 }
             ],
             "explanation": "The first image depicts a for of loop, not a for loop. They can both iterate through Arrays and other iterable objects, but they have slightly different syntax."
