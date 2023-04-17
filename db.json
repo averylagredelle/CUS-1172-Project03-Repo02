@@ -26,7 +26,7 @@
             "correctAnswer": ["document.querySelector()", "document.getElementById()", "document.getElementsByClassName()"],
             "answerFieldOneId": "first_answer",
             "answerFieldTwoId": "second_answer",
-            "explanation": "In JavaScript you can access HTML elements in a few different ways. To access an element by its ID, you can use document.getElementById(). If you want to access all the elements of a certain class, you can use document.getElementsByClassName(). Alternatively, you can use document.querySelector() to access either the first element of a certain class or type or any element by its unique ID."
+            "explanation": "In JS you can access HTML elements in a few different ways. To access an element by its ID, you can use document.getElementById(). If you want to access all the elements of a certain class, you can use document.getElementsByClassName(). Alternatively, you can use document.querySelector() to access either the first element of a certain class or type or any element by its unique ID."
         },
         {
             "id": "javascript_quiz_question4",
@@ -35,13 +35,13 @@
             "questionText": "Quotes (\"\") are used in JavaScript to create strings. What symbols are used to create string templates? Write the symbols below.",
             "correctAnswer": "``",
             "answerFieldId": "answer_to_question",
-            "explanation": "Back-ticks (``) are used in JavaScript to create string templates. String templates are also called template literals, template strings, and back-tics syntax."
+            "explanation": "Back-ticks (``) are used in JS to create string templates. String templates are also called template literals, template strings, and back-tics syntax."
         },
         {
             "id": "javascript_quiz_question5",
             "quizType": "JavaScript Quiz",
             "questionType": "image_selection",
-            "questionText": "Which JavaScript code block has the correct syntax to get an HTML element by ID, print the element in the console, and change the element's content?",
+            "questionText": "Which JS code block has the correct syntax to get an HTML element by ID, print the element in the console, and change the element's content?",
             "correctAnswer": "img_1",
             "options": [
                 {
@@ -59,10 +59,10 @@
             "id": "javascript_quiz_question6",
             "quizType": "JavaScript Quiz",
             "questionType": "multiple_choice",
-            "questionText": "Which of the following is not a keyword used to declare a variable in JavaScript?",
+            "questionText": "Which of the following is not a keyword used to declare a variable in JS?",
             "correctAnswer": "int",
             "options": ["var", "let", "int", "const"],
-            "explanation": "To declare a variable in JavaScript, you can use let, var, or const. You cannot, however, declare variables by type."
+            "explanation": "To declare a variable in JS, you can use let, var, or const. You cannot, however, declare variables by type."
         },
         {
             "id": "javascript_quiz_question7",
@@ -80,13 +80,13 @@
             "questionText": "You cannot use asynchronous functions in JavaScript.",
             "correctAnswer": "False",
             "options": ["True", "False"],
-            "explanation": "While JavaScript is single-threaded, it does possess the capacity to call functions asynchronously."
+            "explanation": "While JS is single-threaded, it does possess the capacity to call functions asynchronously."
         },
         {
             "id": "javascript_quiz_question9",
             "quizType": "JavaScript Quiz",
             "questionType": "image_selection",
-            "questionText": "Select the code block below which correctly shows the use of exponents in JavaScript.",
+            "questionText": "Select the code block below which correctly shows the use of exponents in JS.",
             "correctAnswer": "img_2",
             "options": [
                 {
@@ -98,17 +98,17 @@
                     "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/correct_exponent.png"
                 }
             ],
-            "explanation": "The exponentiation operator in JavaScript is \"**\". This operator raises the term on its left to the power of the term on its right. Alternatively, you could use the Math.pow() function."
+            "explanation": "The exponentiation operator in JS is \"**\". This operator raises the term on its left to the power of the term on its right. Alternatively, you could use the Math.pow() function."
         },
         {
             "id": "javascript_quiz_question10",
             "quizType": "JavaScript Quiz",
             "questionType": "text_input_multiple",
-            "questionText": "JavaScript has 8 data types. Name two of them below. Remember to start each data type with a capital letter.",
+            "questionText": "JS has 8 data types. Name two of them below. Remember to start each data type with a capital letter.",
             "correctAnswer": ["String", "Number", "Bigint", "Boolean", "Undefined", "Null", "Symbol", "Object"],
             "answerFieldOneId": "first_answer",
             "answerFieldTwoId": "second_answer",
-            "explanation": "JavaScript uses the 8 data types above to store different types of data, such as String for words and phrases, or Number for whole numbers and decimals."
+            "explanation": "JS uses the 8 data types above to store different types of data, such as String for words and phrases, or Number for whole numbers and decimals."
         },
         {
             "id": "javascript_quiz_question11",
@@ -117,16 +117,16 @@
             "questionText": "What is the name of the HTML Event where the user clicks on an HTML element?",
             "correctAnswer": "onclick",
             "options": ["onpress", "onclick", "onselect", "onmouseover"],
-            "explanation": "When an HTML element is clicked, the event is called onclick. In JavaScript, you can write code to react when this event is triggered on an HTML element."
+            "explanation": "When an HTML element is clicked, the event is called onclick. In JS, you can write code to react when this event is triggered on an HTML element."
         },
         {
             "id": "javascript_quiz_question12",
             "quizType": "JavaScript Quiz",
             "questionType": "true_false",
-            "questionText": "The following is one correct syntax to declare an array in JavaScript: const states = ['New York', 'New Jersey', 'Pennsylvania'];",
+            "questionText": "The following is one correct syntax to declare an array in JS: const states = ['New York', 'New Jersey', 'Pennsylvania'];",
             "correctAnswer": "True",
             "options": ["True", "False"],
-            "explanation": "Arrays can be created in a couple of different ways in JavaScript. You can use brackets, like in the question, or you can create a new Array() object."
+            "explanation": "Arrays can be created in a couple of different ways in JS. You can use brackets, like in the question, or you can create a new Array() object."
         },
         {
             "id": "javascript_quiz_question13",
@@ -135,7 +135,7 @@
             "questionText": "Fill in the blank: JavaScript ______ Objects allow us to work with measures of time, like days, hours, minutes, and seconds. (Be sure to use Title Case for your answer.)",
             "correctAnswer": "Date",
             "answerFieldId": "answer_to_question",
-            "explanation": "In JavaScript, it is Date Objects that allow you to work with dates and times. They can be very helpful for creating timers in JavaScript."
+            "explanation": "In JS, it is Date Objects that allow you to work with dates and times. They can be very helpful for creating timers in JavaScript."
         },
         {
             "id": "javascript_quiz_question14",
@@ -145,7 +145,7 @@
             "correctAnswer": ["true", "false"],
             "answerFieldOneId": "first_answer",
             "answerFieldTwoId": "second_answer",
-            "explanation": "In JavaScript a Boolean variable can only hold one of two values: true or false."
+            "explanation": "In JS a Boolean variable can only hold one of two values: true or false."
         },
         {
             "id": "javascript_quiz_question15",
