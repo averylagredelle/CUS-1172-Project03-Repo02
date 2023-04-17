@@ -13,26 +13,26 @@
             "id": "javascript_quiz_question2",
             "quizType": "JavaScript Quiz",
             "questionType": "true_false",
-            "questionText": "In JavaScript, you can create a function in many different ways including via arrow function notation and function expressions.",
+            "questionText": "In JavaScript there are many ways to create a function, such as via arrow function notation and function expressions.",
             "correctAnswer": "True",
             "options": ["True", "False"],
-            "explanation": "JavaScript is a very versatile programming language and allows for multiple methods of function declaration, each with their own strengths and useful qualities."
+            "explanation": "JavaScript is a versatile programming language and allows for multiple methods of function declaration, each with their own useful qualities."
         },
         {
             "id": "javascript_quiz_question3",
             "quizType": "JavaScript Quiz",
             "questionType": "text_input_multiple",
-            "questionText": "Name two functions you can use in JavaScript to access an HTML element. Don't forget the parentheses.",
+            "questionText": "Name two functions you can use in JS to access an HTML element. Don't forget the parentheses.",
             "correctAnswer": ["document.querySelector()", "document.getElementById()", "document.getElementsByClassName()"],
             "answerFieldOneId": "first_answer",
             "answerFieldTwoId": "second_answer",
-            "explanation": "In JS you can access HTML elements in a few different ways. To access an element by its ID, you can use document.getElementById(). If you want to access all the elements of a certain class, you can use document.getElementsByClassName(). Alternatively, you can use document.querySelector() to access either the first element of a certain class or type or any element by its unique ID."
+            "explanation": "In JS you can access HTML elements using any of the above functions. You have the option to access an element using its ID, class, or type, with ID being the best way to access a specific element."
         },
         {
             "id": "javascript_quiz_question4",
             "quizType": "JavaScript Quiz",
             "questionType": "text_input_one",
-            "questionText": "Quotes (\"\") are used in JavaScript to create strings. What symbols are used to create string templates? Write the symbols below.",
+            "questionText": "Quotes (\"\") are used in JavaScript to create strings. Write the symbols used to create string templates below.",
             "correctAnswer": "``",
             "answerFieldId": "answer_to_question",
             "explanation": "Back-ticks (``) are used in JS to create string templates. String templates are also called template literals, template strings, and back-tics syntax."
@@ -98,7 +98,7 @@
                     "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/correct_exponent.png"
                 }
             ],
-            "explanation": "The exponentiation operator in JS is \"**\". This operator raises the term on its left to the power of the term on its right. Alternatively, you could use the Math.pow() function."
+            "explanation": "The exponentiation operator in JS is \"**\". It raises the term on its left to the power of the term on its right. You could also use the Math.pow() function."
         },
         {
             "id": "javascript_quiz_question10",
@@ -132,10 +132,10 @@
             "id": "javascript_quiz_question13",
             "quizType": "JavaScript Quiz",
             "questionType": "text_input_one",
-            "questionText": "Fill in the blank: JavaScript ______ Objects allow us to work with measures of time, like days, hours, minutes, and seconds. (Be sure to use Title Case for your answer.)",
+            "questionText": "Fill in the blank: JavaScript ______ Objects allow us to work with measures of time, like hours, minutes, and seconds. (Use Title Case for your answer.)",
             "correctAnswer": "Date",
             "answerFieldId": "answer_to_question",
-            "explanation": "In JS, it is Date Objects that allow you to work with dates and times. They can be very helpful for creating timers in JavaScript."
+            "explanation": "In JS, it is Date Objects that allow you to work with dates and times. They can be very helpful for creating timers."
         },
         {
             "id": "javascript_quiz_question14",
