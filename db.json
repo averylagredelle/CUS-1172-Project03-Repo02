@@ -62,7 +62,7 @@
             "questionText": "Which of the following is not a keyword used to declare a variable in JavaScript?",
             "correctAnswer": "int",
             "options": ["var", "let", "int", "const"],
-            "explanation": "To declare a variable in JavaScript, you can use let, var, or const. You cannot, however, declare variables by type as with other programming languages, such as Java or C#."
+            "explanation": "To declare a variable in JavaScript, you can use let, var, or const. You cannot, however, declare variables by type."
         },
         {
             "id": "javascript_quiz_question7",
@@ -71,7 +71,7 @@
             "questionText": "What does JSON stand for? (Use Title Case.)",
             "correctAnswer": "JavaScript Object Notation",
             "answerFieldId": "answer_to_question",
-            "explanation": "JSON stands for JavaScript Object Notation. It is a text format used to represent data in a way that can be interpreted by many different programming languages, thus making it incredibly useful for sharing data between computers."
+            "explanation": "JSON stands for JavaScript Object Notation. It is a text format used to represent data and is very useful for sharing data between computers."
         },
         {
             "id": "javascript_quiz_question8",
@@ -108,7 +108,7 @@
             "correctAnswer": ["String", "Number", "Bigint", "Boolean", "Undefined", "Null", "Symbol", "Object"],
             "answerFieldOneId": "first_answer",
             "answerFieldTwoId": "second_answer",
-            "explanation": "JavaScript uses the 8 data types above to store different types of data, such as String for words and phrases, Number for whole numbers and decimals, or Boolean for true/false values."
+            "explanation": "JavaScript uses the 8 data types above to store different types of data, such as String for words and phrases, or Number for whole numbers and decimals."
         },
         {
             "id": "javascript_quiz_question11",
