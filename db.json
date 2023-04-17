@@ -5,8 +5,8 @@
             "quizType": "JavaScript Quiz",
             "questionType": "multiple_choice",
             "questionText": "Which HTML tag is JavaScript code placed in?",
-            "correctAnswer": "<script>",
-            "options": ["<script>", "<code>", "<function>", "<program>"],
+            "correctAnswer": "< script >",
+            "options": ["< script >", "< code >", "< function >", "< program >"],
             "explanation": "To write JavaScript code in an HTML file, you place the code in <script> tags."
         },
         {
