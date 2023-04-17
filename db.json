@@ -126,7 +126,7 @@
             "questionText": "The following is one correct syntax to declare an array in JavaScript: const states = ['New York', 'New Jersey', 'Pennsylvania'];",
             "correctAnswer": "True",
             "options": ["True", "False"],
-            "explanation": "Arrays can be created in a couple of different ways in JavaScript. One is by using brackets like so: const states = ['New York', 'New Jersey', 'Pennsylvania']. Another way is to use the 'new' keyword: const states = new Array('New York', 'New Jersey', 'Pennsylvania')."
+            "explanation": "Arrays can be created in a couple of different ways in JavaScript. You can use brackets, like in the question, or you can create a new Array() object."
         },
         {
             "id": "javascript_quiz_question13",
@@ -163,7 +163,7 @@
                     "source": "https://raw.githubusercontent.com/averylagredelle/CUS-1172/main/Project03/Database/javascript_questions/js_for_loop.png"
                 }
             ],
-            "explanation": "The first image depicts a for of loop, not a for loop. They can both be used to iterate through Arrays and other iterable objects, but they have slightly different syntax."
+            "explanation": "The first image depicts a for of loop, not a for loop. They can both iterate through Arrays and other iterable objects, but they have slightly different syntax."
         }
     ]
 }
